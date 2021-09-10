@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Acme|Dancing+Script|Inconsolata|Pacifico|Shadows+Into+Light|Spicy+Rice&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="style.css">-->
+	<title>Home</title>
+	<style>
+		h2{
+			font-family: 'Spicy Rice', cursive;
+		}
+		h1{
+			font-family: 'Pacifico', cursive;
+		}
+		td{
+			font-family: 'Acme', sans-serif;
+		}
+		.modal-title{
+			font-family: 'Spicy Rice', cursive;
+		}
+		.modal-body{
+			font-family: 'Pacifico', cursive;
+		}
+
+	</style>
+  </head>
+  <body class="bg-white">
+      <script src="/static/script.js"></script>
+	<nav class="navbar navbar-expand-sd bg-light navbar-light fixed-top">
+      <a class="navbar-brand" href="#">
+          <img src="/static/b1.png" alt="logo" style="width:70px;height:50px;"></a>
+    </nav>  
+	<br><br>
+	
+	<div class="container">
+	<br><br><br>
+	<div class="container-fluid">
+		<div class="jumbotron outline-primary">
+			<div class="text-center">
+				<h2>Sign In</h2><br>
+				<div class="text-center">
+						<!--Sign In-->
+						<div style="margin-left:370px;">
+							<table class="table table-hover table-responsive">
+								<thead class="thead-inverse">
+									<tr class="bg-info"><th>Sign In</th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="form-group row">
+											<label for="email" class="col-sm-3 form-control-label">Username</label>
+											<div class="col-sm-9">
+												<input type="text" id="username" name="user" placeholder="Username" class="form-control form-control-sm" required>
+											</div>
+										</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-group row">
+												<label for="password" class="col-sm-3 form-control-label">Password</label>
+												<div class="col-sm-9">
+													<input type="password" id="password" name="password" placeholder="Password" class="form-control form-control-sm" required>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<button type="submit" class="btn btn-success" onclick="call()">Sign In</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+                    </div>
+                    <div id="table" style="margin-left: 370px;">
+                        <table id="showw" style="border-collapse: collapse;"></table>
+                    </div>
+					</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ </body>
+</html>
